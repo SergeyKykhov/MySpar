@@ -22,31 +22,40 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="One1" translatesAutoresizingMaskIntoConstraints="NO" id="U9t-hs-leU">
-                                <rect key="frame" x="76" y="167" width="240" height="185"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceW-C5-uSW">
+                                <rect key="frame" x="86" y="172" width="131" height="60"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="48"/>
+                                <color key="textColor" red="1" green="0.087298907269702686" blue="0.078229255544098319" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добро пожаловать!" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
                                 <rect key="frame" x="86" y="412" width="221" height="28"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="One1" translatesAutoresizingMaskIntoConstraints="NO" id="U9t-hs-leU">
+                                <rect key="frame" x="225" y="147" width="71" height="85"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="U9t-hs-leU" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="76" id="39L-gH-sKQ"/>
-                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6Sg-aK-WC0"/>
-                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TCG-Eo-mvF"/>
-                            <constraint firstItem="U9t-hs-leU" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="108" id="c7k-46-KnO"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="U9t-hs-leU" secondAttribute="trailing" constant="77" id="s1h-xn-Bh8"/>
-                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="U9t-hs-leU" secondAttribute="bottom" constant="60" id="yOC-n1-RhT"/>
+                            <constraint firstItem="ceW-C5-uSW" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="113" id="A0y-Nk-Qym"/>
+                            <constraint firstItem="ceW-C5-uSW" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="86" id="A7u-US-GTY"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="ceW-C5-uSW" secondAttribute="bottom" constant="180" id="Dd9-m7-e0c"/>
+                            <constraint firstItem="U9t-hs-leU" firstAttribute="leading" secondItem="ceW-C5-uSW" secondAttribute="trailing" constant="8" symbolic="YES" id="Oy7-Sy-Few"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="U9t-hs-leU" secondAttribute="trailing" constant="97" id="Xyz-Xg-yYl"/>
+                            <constraint firstItem="U9t-hs-leU" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="88" id="f7J-Gc-69S"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nel-Kg-rIm"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rUq-jw-Ngz"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="U9t-hs-leU" secondAttribute="bottom" constant="180" id="uNe-pi-mZn"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
     <resources>
