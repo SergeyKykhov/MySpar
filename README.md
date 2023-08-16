@@ -1,5 +1,5 @@
 # MySpar 
-> A clone design of the MySpar app with simple functionality and in Swift for ios 16..
+> A clone design of the MySpar app with simple functionality and in SwiftUI for ios 16..
 ## General Information
 - An application with a design as close as possible to the original on SwiftUI
 
